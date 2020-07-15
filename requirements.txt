@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pyrebase
+opencv-python
+imutils
+scikit-image
+django
