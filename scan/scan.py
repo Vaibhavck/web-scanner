@@ -2,7 +2,6 @@
 import cv2
 import numpy as np 
 from matplotlib import pyplot as plt 
-import argparse
 import os
 import imutils 
 from skimage.filters import threshold_local

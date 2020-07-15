@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from . import firebase_web as fbw
 import pyrebase
 import os
 from .scan import scan_img
