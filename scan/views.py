@@ -41,7 +41,6 @@ def test(request):
     # print(test)
     return HttpResponse(os.path.join(os.path.abspath('.'), 'samples', 'scanned', 'scanned.png'))
 
-
 def upload(FIREBASE_PATH):
     temp = FIREBASE_PATH.split('/')[-1]
     FIREBASE_PATH = FIREBASE_PATH.replace(temp, 'scanned.png')
